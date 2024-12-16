@@ -70,7 +70,8 @@ class ParametreActivity : ComponentActivity() {
         enableEdgeToEdge()
 
         val notificationCheckBox = findViewById<CheckBox>(R.id.notificationCheckBox)
-
+        demanderPermissionNotification()
+        creerCanal()
 
         // Initialiser les préférences partagées
         sharedPreferences = getSharedPreferences("AppPrefs", MODE_PRIVATE)

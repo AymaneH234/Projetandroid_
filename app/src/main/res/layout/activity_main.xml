@@ -34,28 +34,30 @@
     </TextView>
     <TextView
         android:id="@+id/titre_limite"
-        android:textColor="@color/white"
+        android:textColor="@color/teal_700"
         android:gravity="center"
         android:textStyle="bold"
-        android:textSize="25sp"
+        android:textSize="20sp"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/la_limite_de_temp_rature_est"
         />
+
     <TextView
         android:id="@+id/txt_limit"
-        android:textColor="@color/white"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:textSize="25sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text=""
-        >
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold">
 
 
     </TextView>
+
+
 
     <TextView
         android:textColor="@color/teal_700"
@@ -69,6 +71,7 @@
         android:gravity="center"
         android:inputType="text"
         android:text="@string/etat" />
+
 
     <TextView
         android:id="@+id/txtMov"
@@ -100,10 +103,19 @@
 
         <TextView
             android:id="@+id/txt_temp"
-            android:layout_width="221dp"
+            android:layout_width="203dp"
             android:layout_height="94dp"
-            android:gravity="center"
+            android:gravity="right"
             android:text=""
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/txt_celius"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:gravity="center"
+            android:text="@string/c"
             android:textColor="@color/white"
             android:textSize="40sp" />
 
@@ -116,22 +128,47 @@
 
 
     </LinearLayout>
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:id="@+id/Titre_frequence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:gravity="center"
+        android:inputType="text"
+        android:text="fréquence cardiaque" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="98dp"
         android:orientation="horizontal"
 >
+
         <TextView
             android:id="@+id/txt_frequence"
-            android:layout_width="0dp"
+            android:layout_width="121dp"
+            android:layout_marginRight="3dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:text=""
+
+            android:gravity="right"
+            android:text="75"
 
             android:textColor="@color/white"
             android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/txt_pm"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="left"
+            android:text="pm"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
         <ImageView
             android:layout_width="191dp"
             android:layout_height="match_parent"
@@ -145,9 +182,9 @@
 
     <Button
         android:id="@+id/button_actualiser"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="155dp"
+
 
         android:layout_marginTop="1dp"
         android:background="@color/purple_700"
@@ -159,18 +196,18 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="28dp"
-        android:layout_marginTop="80dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="40dp"
         android:orientation="horizontal">
 
 
         <Button
             android:id="@+id/btn_modifier"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginRight="25dp"
             android:layout_weight="1"
-            android:background="@color/black"
+            android:background="@color/purple_700"
             android:text="Modifier"
             android:textColor="@color/white"
             android:textStyle="bold" />
@@ -178,9 +215,9 @@
         <Button
             android:id="@+id/btn_parametre"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="@color/black"
+            android:background="@color/purple_700"
             android:text="@string/btn_parametres"
             android:textColor="@color/white"
             android:textStyle="bold" />

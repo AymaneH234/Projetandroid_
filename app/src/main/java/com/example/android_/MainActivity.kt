@@ -137,7 +137,7 @@ class MainActivity : ComponentActivity() {
                 {
                     Log.d("JSON",reponse ?: "Données nulles")
 
-
+        //Récuperer les données json et les afficher sur les textview
                     if(reponse != null){
                         val obj = JSONObject(reponse)
                         val mouvement = obj.getString("mouvement")
@@ -217,6 +217,7 @@ class MainActivity : ComponentActivity() {
          val ip_recu = intent.getStringExtra("ip")
          val port = intent.getStringExtra("port")
 
+        //bouton modifier pour envoyer l'ip le port qui va servir à envoyer les données au serveur
         btnModifier.setOnClickListener {
             val intent = Intent(this,ModifierActivity::class.java)
             intent.putExtra("ip",ip_recu.toString())

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">android_</string>
     <string name="txtsortie">txtSortie</string>
-    <string name="etat">MOUVEMENT</string>
+    <string name="etat">EN MOUVEMENT</string>
     <string name="temperature">CHALEUR</string>
     <string name="title_activity_intro">IntroActivity</string>
     <string name="bracelet_connect">Bracelet connecté</string>
@@ -10,7 +10,7 @@
     <string name="ex_1234">ex:1234</string>
     <string name="ex_192_168">ex:192.168...</string>
     <string name="actualiser">Actualiser</string>
-    <string name="bienvenue">BIENVENUE</string>
+    <string name="bienvenue">MENU</string>
     <string name="home">home</string>
     <string name="modifier">modifier</string>
     <string name="parametres">parametres</string>
@@ -22,5 +22,6 @@
     <string name="confirmer">Confirmer</string>
     <string name="exemple_37">exemple:37</string>
     <string name="btn_parametres">Parametres</string>
-    <string name="la_limite_de_temp_rature_est">La limite de température est</string>
+    <string name="la_limite_de_temp_rature_est">La limite de température est de</string>
+    <string name="c">°C</string>
 </resources>
