@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/dark_background">
+
+
+    <TextView
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenue"
+        android:textSize="35sp"
+        android:layout_marginBottom="3dp"/>
+
+    <TextView
+        android:id="@+id/txt_Date"
+        android:textColor="@color/teal_700"
+        android:gravity="center"
+        android:textStyle="bold"
+
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="">
+
+    </TextView>
+    <TextView
+        android:id="@+id/titre_limite"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/la_limite_de_temp_rature_est"
+        />
+    <TextView
+        android:id="@+id/txt_limit"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        >
+
+
+    </TextView>
+
+    <TextView
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:id="@+id/Titre_mouvement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="@string/etat" />
+
+    <TextView
+        android:id="@+id/txtMov"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+     />
+
+    <EditText
+        android:textSize="20sp"
+        android:id="@+id/Titre_chaleur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="@string/temperature" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/txt_temp"
+            android:layout_width="221dp"
+            android:layout_height="94dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/calor">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:orientation="horizontal"
+>
+        <TextView
+            android:id="@+id/txt_frequence"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+        <ImageView
+            android:layout_width="191dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/coeur" />
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_actualiser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+
+        android:layout_marginTop="1dp"
+        android:background="@color/purple_700"
+        android:padding="6dp"
+
+        android:text="@string/actualiser"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_modifier"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="25dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:text="Modifier"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_parametre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:text="@string/btn_parametres"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
