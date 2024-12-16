@@ -10,7 +10,8 @@
 
 
     <TextView
-        android:textColor="@color/teal_700"
+        android:background="@color/purple_700"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:id="@+id/textView"
         android:gravity="center"
@@ -139,7 +140,7 @@
 
         android:gravity="center"
         android:inputType="text"
-        android:text="fréquence cardiaque" />
+        android:text="@string/fr_quence_cardiaque" />
 
     <LinearLayout
         android:layout_width="match_parent"

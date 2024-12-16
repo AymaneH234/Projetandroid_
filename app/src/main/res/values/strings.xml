@@ -2,7 +2,7 @@
     <string name="app_name">android_</string>
     <string name="txtsortie">txtSortie</string>
     <string name="etat">EN MOUVEMENT</string>
-    <string name="temperature">CHALEUR</string>
+    <string name="temperature">Chaleur Corporelle</string>
     <string name="title_activity_intro">IntroActivity</string>
     <string name="bracelet_connect">Bracelet connecté</string>
     <string name="port">PORT</string>
@@ -24,4 +24,5 @@
     <string name="btn_parametres">Parametres</string>
     <string name="la_limite_de_temp_rature_est">La limite de température est de</string>
     <string name="c">°C</string>
+    <string name="fr_quence_cardiaque">Fréquence cardiaque</string>
 </resources>
